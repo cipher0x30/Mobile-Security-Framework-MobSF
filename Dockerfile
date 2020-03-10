@@ -62,7 +62,7 @@ ENV JAVA_HOME="/jdk-12"
 ENV PATH="$JAVA_HOME/bin:$PATH"
 
 WORKDIR /root/Mobile-Security-Framework-MobSF
-COPY ./requirements.txt .
+COPY requirements.txt .
 
 # Install Requirements
 RUN pip3 install --upgrade wheel && \
